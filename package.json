@@ -4,14 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node dist/bundle.js",
-    "build": "rm -rf dist && webpack src/server.js --mode production --output-filename bundle.js "
+    "start": "node src/server.js"
   },
   "dependencies": {
     "express": "^4.17.1"
   },
-  "devDependencies": {
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.12"
-  }
+  "devDependencies": {}
 }
